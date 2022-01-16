@@ -12,7 +12,7 @@ function MovieCard () {
     };
 
     return (
-        <div>
+        <div className="col-sm-6 col-lg-4 col-xl-3 mb-3">
             <img className="dsmovie-movie-card-image" src={movie.image} alt={movie.title} />
             <div className="dsmovie-card-bottom-container">
                 <h3>{movie.title}</h3>
